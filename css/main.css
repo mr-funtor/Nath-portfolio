@@ -29,6 +29,10 @@ nav{
     z-index: 90;
 }
 
+nav>h3{
+    font-weight: 400;
+}
+
 #nav-links{
 /*    background: grey;*/
     list-style: none;
@@ -125,6 +129,7 @@ nav{
     border-radius: 15px;
     font-size: 23px;
     font-weight: bold;
+    
 }
 
 /*PROJECTS SECTION*/
@@ -144,26 +149,26 @@ nav{
 }
 
 .project-box{
-/*    background: pink;*/
+   /* background: pink; */
     height: 70vh;
     display: flex;
     margin-bottom: 50px;
 }
 
 .project-image-box{
-/*    background: grey;*/
+   /* background: grey; */
     height: 100%;
     width: 75%;
 }
 
-.project-box>img{
+.project-box img{
     height: 100%;
     width:100%;
     object-fit: cover;
 }
 
 .project-summary{
-/*    background: pink;*/
+   /* background: pink; */
     height: 100%;
     margin-left: 20px;
     padding-top: 40px;
@@ -172,16 +177,23 @@ nav{
     justify-content: flex-end;
 }
 
-.project-summary button{
+.project-summary a{
+    /* background: blue; */
     height: 58px;
     width: 180px;
+    margin-top: 80px;
+}
+
+.project-summary button{
+    height: 100%;
+    width: 100%;
     background: var(--primary-color);
     border: none;
     border-radius: 15px;
     font-weight: bold;
     font-size: 23px;
     color: #fff;
-    margin-top: 80px;
+    cursor: pointer;
 }
 
 .project-summary div{
@@ -203,5 +215,12 @@ nav{
 
 .project-summary p:nth-child(2){
     color: #D79B24;
+}
+
+#final-words{
+    
+    margin: 150px 0px;
+    font-size: 44px;
+    text-align: center;
 }
 
