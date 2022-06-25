@@ -1,0 +1,87 @@
+:root{
+    --main-color: rgba(94, 96, 206, 1);
+    --background-color: rgba(240, 240, 255, 1); 
+}
+
+.citizen-hero{
+    background: var(--background-color);
+    min-height: 85vh;
+    padding: 12vh 0px 80px 0px;
+    display: flex;
+}
+
+.hero-image-container{
+    /* background-color: blueviolet; */
+    height: 60vh;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.hero-image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.overview-section{
+    padding: 13vh 7vw;
+}
+
+.overview-section{
+    height: 100vh;
+    color: var(--main-color);
+}
+
+.overview-section>h1{
+    font-size: 50px;
+}
+
+.overview-section>h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 55px 0;
+}
+
+.citi-details-section{
+    display: flex;
+}
+
+.citi-details-section-left{
+    width: 65%;
+    margin-right: 30px;
+    padding-right: 30px;
+}
+
+.citi-details-section-left p{
+    font-size: 25px;
+    line-height: 220%;
+}
+
+.citi-details-section-left p:first-child{
+    margin-bottom: 40px;
+}
+
+.citi-details-section-right{
+    /* background-color: pink; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.details-role{
+    background-color: var(--background-color);
+    height: 150px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details-role>h3{
+    font-size: 30px;
+}
+
+.details-role>p{
+    font-size: 22px;
+}

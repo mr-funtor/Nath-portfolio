@@ -18,7 +18,7 @@ nav{
     position: sticky;
     top:0;
     left: 0;
-    height: 148px;
+    height: 130px;
     width: 100%;
     padding: 10px 30px 10px 152px;
     display: flex;
@@ -39,6 +39,11 @@ nav>h3{
     width: 440px;
     display: flex;
     justify-content: space-between;
+}
+
+#nav-links a{
+    text-decoration: none;
+    color: #000;
 }
 
 .active-page{
